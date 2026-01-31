@@ -1,6 +1,6 @@
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open("meu-cronometro").then(cache => {
+    caches.open("index").then(cache => {
       return cache.addAll([
         "index.html",
         "manifest.json",
@@ -17,4 +17,5 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
 
