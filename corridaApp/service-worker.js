@@ -2,7 +2,7 @@ self.addEventListener("install", event => {
   event.waitUntil(
     caches.open("meu-cronometro").then(cache => {
       return cache.addAll([
-        "MeuCronometro.html",
+        "index.html",
         "manifest.json",
         "icon.jpg"
       ]);
@@ -17,3 +17,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
