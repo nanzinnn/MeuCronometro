@@ -1,7 +1,7 @@
 {
   "name": "cronometroSeparado",
   "short_name": "Cronometro",
-  "start_url": "MeuCronometro.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
@@ -13,3 +13,4 @@
     }
   ]
 }
+
